@@ -1,0 +1,67 @@
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #6a11cb, #2575fc);
+        color: #333;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+        padding-bottom: 50px; /* Espaço para o rodapé */
+    }
+    
+    #app {
+        width: 100%;
+        max-width: 400px;
+        margin-top: 20px;
+    }
+    
+    /* Centraliza o conteúdo da página */
+    .container {
+        text-align: center;
+        width: 90%;
+        max-width: 400px;
+        margin: auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Estilização para a imagem de perfil */
+    .profile-picture {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+        border: 3px solid #fff;
+        object-fit: cover;
+    }
+    
+    /* Nome profissional */
+    .professional-name {
+        font-size: 16px;
+        font-weight: bold;
+        color: #666;
+        margin-bottom: 20px;
+    }
+    
+    /* Estilo para o título */
+    h1 {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 20px;
+    }
+    
+    /* Estilo para o rodapé */
+    .footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #f4f4f4;
+        color: #666;
+        font-size: 14px;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+    }
+    
