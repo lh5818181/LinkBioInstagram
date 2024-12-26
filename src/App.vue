@@ -24,7 +24,7 @@ interface Link {
 
 // Lista de links
 const links: Link[] = [
-  { id: 1, label: "Portfolio Web", url: "https://portfolio-home-ten.vercel.app/" },
+  { id: 1, label: "Portfolio Web - em desenvolvimento", url: "https://portfolio-home-ten.vercel.app/" },
   { id: 2, label: "GitHub", url: "https://github.com/lh5818181" },
   { id: 3, label: "LinkedIn", url: "https://www.linkedin.com/in/luis-henrique-76245231a/" },
   { id: 4, label: "Whatsapp", url: "https://wa.me/qr/XOOHIGLGNEOCA1" }
