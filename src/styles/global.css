@@ -66,22 +66,30 @@
     }
 
 
-    @media (max-width: 640px) {
-        .container {
-            padding: 2px;
-            margin: 15px auto;
-            width: 100%;
-            text-align: center;
-            font-size: 10px;
-        }
+/* Estilo responsivo para telas com largura máxima de 640px */
+@media (max-width: 640px) {
+    .container {
+        width: 80%;
     }
-
-    @media (max-width: 768px) {
+    h1 {
+        font-size: 20px;
+    }
+    .profile-picture {
+        width: 80px;
+        height: 80px;
+    }
+    }
+    
+    /* Estilo responsivo para telas entre 641px e 768px */
+    @media (min-width: 641px) and (max-width: 768px) {
         .container {
-            padding: 15px;
-            margin: 25px auto;
-            width: 100%;
-            text-align: center;
-            font-size: 15px;
+            width: 90%;
+        }
+        h1 {
+            font-size: 22px;
+        }
+        .profile-picture {
+            width: 90px;
+            height: 90px;
         }
     }
